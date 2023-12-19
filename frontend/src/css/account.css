@@ -1,0 +1,59 @@
+.account-container {
+    margin-top: 2%;
+    margin-left: 40%;
+    justify-items: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-details h3, .user-details p {
+    margin: 5px 0;
+}
+
+.password-form {
+    max-width: 400px;
+}
+
+.password-form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.password-form button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.error-message {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: fit-content;
+}
+.success-message {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: fit-content;
+}
+

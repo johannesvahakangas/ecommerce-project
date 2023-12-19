@@ -1,0 +1,37 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    min-height: 100vh; /* Center vertically */
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between form elements */
+    align-items: center;
+  }
+  
+  .signup-form input {
+    width: 80%; /* Make inputs wider */
+    padding: 10px; /* Padding inside inputs */
+    margin: 5px 0; /* Margin around inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  .signup-form button {
+    width: 85%;
+    padding: 10px;
+    background-color: #28a745; /* Bootstrap success green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Margin on top */
+  }
+  
+  .signup-form button:hover {
+    background-color: #218838; /* A darker green on hover */
+  }

@@ -1,0 +1,37 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 50px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add space between form elements */
+    align-items: center;
+  }
+  
+  .login-form input {
+    width: 80%; /* Make inputs wider */
+    padding: 10px; /* Add some padding inside inputs */
+    margin: 5px 0; /* Add some margin around inputs */
+    border: 1px solid #ccc; /* Add a border to inputs */
+    border-radius: 5px; /* Slightly round corners of inputs */
+  }
+  
+  .login-form button {
+    width: 85%;
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Add some margin at the top */
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; /* A slightly darker blue on hover */
+  }

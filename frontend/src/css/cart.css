@@ -1,0 +1,89 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .cart-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-box {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .btn-continue-shopping, .btn-checkout {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  .cart-table th {
+    text-align: left;
+  }
+  
+  .cart-row {
+    display: flex;
+    align-items: center; /* Ensure items in the row are vertically centered */
+    margin-bottom: 10px;
+  }
+  
+  .cart-row.header {
+    font-weight: bold;
+    margin-right: 40px;
+  }
+  
+  .item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .quantity-controls, .delete-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .quantity-controls img, .delete-control img {
+    margin: 0 5px; /* Adds some spacing around control images */
+    cursor: pointer; /* Indicates these are clickable */
+  }
+  
+  .quantity {
+    min-width: 20px; /* Ensures quantity number does not shift buttons too much */
+    text-align: center; /* Centers the quantity number */
+  }
+  
+  .delete-control {
+    margin-left: auto; /* Pushes the delete button to the right */
+  }
+  
+  /* Enhances the visual feedback on interactive elements */
+  .quantity-controls img:hover, .delete-control img:hover {
+    opacity: 0.7; /* Gives a visual cue that these are interactive */
+  }
+  
+  /* Additional styling for the cart items layout */
+  .cart-row > div {
+    flex: 1; /* Distributes space evenly */
+    display: flex;
+    justify-content: center; /* Centers content */
+  }
+  
+  /* Specific adjustments for item detail and image container */
+  .cart-row > div:first-child {
+    flex: 2; /* Gives more space to the item image and details */
+    justify-content: flex-start; /* Aligns content to the start */
+  }
+  
+  .cart-row img.item-image {
+    margin-right: 10px; /* Adds some space between the image and the item title */
+  }
