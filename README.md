@@ -6,6 +6,7 @@ E-commerce site done with Django and React
 
 ## In order to run:
 
+0. 0ptional but recommended, create a virtual environment file (venv) in order to install the requirements!
 1. Make an env file and run `pip install -r requirements.txt`
 2. Run the project with `python3 manage.py runserver` 
 4. Navigate to the frontend folder and `run build` and after `npm start` 
