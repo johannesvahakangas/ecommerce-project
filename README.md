@@ -17,4 +17,4 @@ E-commerce site done with Django and React
 
 ____________
 
-All requirements except for the number 12. Pay, has been implemented. A bit of extra styling has been made because I followed a tutorial. For code formatting Prettier has been used.
+All requirements including the optional except for the number 12. Pay, has been implemented. A bit of extra styling has been made because I followed a tutorial and like to make sites look nice. For code formatting Prettier has been used.
